@@ -12,3 +12,5 @@ public interface EmpleadosDAO extends DAO<Empleados, Long>{
 	Empleados buscarPorCurp(String curp);
 	
 }
+
+// Moverle codigo para ejemplo

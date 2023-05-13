@@ -12,10 +12,9 @@ import com.mx.proyecto.entities.Empleados;
 public class EmpleadosDAOImpl extends GenericDAO<Empleados, Long> implements EmpleadosDAO{
 	
 	// DAO = Data Access Objetc       -> Patron de diseño
-		// MVC (Modelo Vista controlador) -> Patron de diseño
+	// MVC (Modelo Vista controlador) -> Patron de diseño
 	
 	
-
 	@Override
 	@Transactional
 	public Empleados buscarPorCurp(String curp) {
